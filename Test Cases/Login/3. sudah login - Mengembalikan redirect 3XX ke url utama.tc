@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. sudah login - Mengembalikan redirect 3XX ke url utama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0956e24-f2ae-4762-b1f3-325f496b2648</testCaseGuid>
+</TestCaseEntity>

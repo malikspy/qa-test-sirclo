@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SIRCLO - TECHNICAL TEST QA,,Soal Nomor 7 terkait Automation testing,,2022-05-07 07:54:22,2022-05-07 07:54:30,8.287s,PASSED
+,,,,,,,
+Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama,,,,2022-05-07 07:54:23,2022-05-07 07:54:25,2.161s,PASSED
+"response1 = sendRequest(findTestObject(""Login/1. sudah login - Mengembalikan redirect 3XX ke url utama"", [""url"":url]))",,,,2022-05-07 07:54:23,2022-05-07 07:54:25,1.742s,PASSED
+"verifyResponseStatusCode(response1, 302)",,,,2022-05-07 07:54:25,2022-05-07 07:54:25,0.045s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:25,2022-05-07 07:54:25,0.037s,PASSED
+,,,,,,,
+Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password,,,,2022-05-07 07:54:25,2022-05-07 07:54:26,0.700s,PASSED
+"response = sendRequest(findTestObject(""Login/2. belum login - Menampilkan form login dengan username dan password"", [""url"":url]))",,,,2022-05-07 07:54:25,2022-05-07 07:54:25,0.518s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-05-07 07:54:25,2022-05-07 07:54:26,0.006s,PASSED
+comment(response.getResponseText()),,,,2022-05-07 07:54:26,2022-05-07 07:54:26,0.004s,PASSED
+,,,,,,,
+Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama,,,,2022-05-07 07:54:26,2022-05-07 07:54:26,0.575s,PASSED
+"response1 = sendRequest(findTestObject(""Login/3. sudah login - Mengembalikan redirect 3XX ke url utama"", [""url"":url]))",,,,2022-05-07 07:54:26,2022-05-07 07:54:26,0.462s,PASSED
+"verifyResponseStatusCode(response1, 302)",,,,2022-05-07 07:54:26,2022-05-07 07:54:26,0.015s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:26,2022-05-07 07:54:26,0.007s,PASSED
+,,,,,,,
+Test Cases/Login/4. login menggunakan Username dan password valid,,,,2022-05-07 07:54:26,2022-05-07 07:54:27,0.513s,PASSED
+"response1 = sendRequest(findTestObject(""Login/4. login menggunakan Username dan password valid"", [""url"":url]))",,,,2022-05-07 07:54:26,2022-05-07 07:54:27,0.419s,PASSED
+"verifyResponseStatusCode(response1, 302)",,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.006s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.003s,PASSED
+,,,,,,,
+Test Cases/Login/5. login menggunakan Username dan password salah,,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.589s,PASSED
+"response1 = sendRequest(findTestObject(""Login/5. login menggunakan Username dan password salah"", [""url"":url]))",,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.448s,PASSED
+"verifyResponseStatusCode(response1, 401)",,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.007s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:27,2022-05-07 07:54:27,0.004s,PASSED
+,,,,,,,
+Test Cases/Login/6. logout,,,,2022-05-07 07:54:27,2022-05-07 07:54:28,0.685s,PASSED
+"response1 = sendRequest(findTestObject(""Logout/Logout"", [""url"":url]))",,,,2022-05-07 07:54:27,2022-05-07 07:54:28,0.475s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.005s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.004s,PASSED
+,,,,,,,
+Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir,,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.463s,PASSED
+"response1 = sendRequest(findTestObject(""Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir"", [""url"":url]))",,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.356s,PASSED
+"verifyResponseStatusCode(response1, 200)",,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.002s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:28,2022-05-07 07:54:28,0.001s,PASSED
+,,,,,,,
+Test Cases/Data/2. Filter Data start date lebih besar dari end date,,,,2022-05-07 07:54:28,2022-05-07 07:54:29,0.480s,PASSED
+"response1 = sendRequest(findTestObject(""Data/2. Filter Data start date lebih besar dari end date"", [""url"":url]))",,,,2022-05-07 07:54:29,2022-05-07 07:54:29,0.386s,PASSED
+"verifyResponseStatusCode(response1, 405)",,,,2022-05-07 07:54:29,2022-05-07 07:54:29,0.003s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:29,2022-05-07 07:54:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login,,,,2022-05-07 07:54:29,2022-05-07 07:54:30,0.882s,PASSED
+"response1 = sendRequest(findTestObject(""Data/3. belum login - Mengembalikan redirect 3XX ke login"", [""url"":url]))",,,,2022-05-07 07:54:29,2022-05-07 07:54:30,0.743s,PASSED
+"verifyResponseStatusCode(response1, 302)",,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.019s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.006s,PASSED
+,,,,,,,
+Test Cases/Data/Endpoint Selalu salah,,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.618s,PASSED
+Time = SimpleDateFormat(mmss).format(getInstance().getTime()),,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.064s,PASSED
+"no = ""coba"" + Time + ""sirclo""",,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.001s,PASSED
+randomword = no,,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.001s,PASSED
+"response1 = sendRequest(findTestObject(""Data/Endpoint Selalu salah"", [""url"":url, ""RandomWord"":randomword]))",,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.394s,PASSED
+"verifyResponseStatusCode(response1, 404)",,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.009s,PASSED
+comment(response1.getResponseText()),,,,2022-05-07 07:54:30,2022-05-07 07:54:30,0.005s,PASSED

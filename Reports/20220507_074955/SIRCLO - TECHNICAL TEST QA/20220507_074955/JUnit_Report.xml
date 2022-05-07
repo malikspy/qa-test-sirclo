@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SIRCLO - TECHNICAL TEST QA" time="8.012" tests="10" failures="0" errors="0">
+   <testsuite name="SIRCLO - TECHNICAL TEST QA" tests="10" failures="0" errors="0" time="8.012" skipped="0" timestamp="2022-05-07 07:50:41" hostname="muktimalik - 202.3.218.138" id="Test Suites/SIRCLO - TECHNICAL TEST QA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955"/>
+         <property name="logFiles" value="/Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muktimalik - 202.3.218.138"/>
+         <property name="hostAddress" value="202.3.218.138"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama" time="2.043" classname="Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:41 - [TEST_CASE][PASSED] - Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama: Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama
+
+2022-05-07 07:50:42 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Login/1. sudah login - Mengembalikan redirect 3XX ke url utama", ["url":url])): Send request successfully
+
+2022-05-07 07:50:43 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/0.har
+
+2022-05-07 07:50:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 302): Verify response status code successfully
+
+2022-05-07 07:50:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:43 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): <a href="/">Found</a>.
+
+
+
+2022-05-07 07:50:43 - [MESSAGE][INFO] - <a href="/">Found</a>.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password" time="0.711" classname="Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:43 - [TEST_CASE][PASSED] - Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password: Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Login/2. belum login - Menampilkan form login dengan username dan password", ["url":url])): Send request successfully
+
+2022-05-07 07:50:44 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/1.har
+
+2022-05-07 07:50:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-05-07 07:50:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - comment(response.getResponseText()): <html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/login" method="post">
+            Username:<input type="text" name="username">
+            Password:<input type="password" name="password">
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
+
+2022-05-07 07:50:44 - [MESSAGE][INFO] - <html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/login" method="post">
+            Username:<input type="text" name="username">
+            Password:<input type="password" name="password">
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama" time="0.482" classname="Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:44 - [TEST_CASE][PASSED] - Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama: Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Login/3. sudah login - Mengembalikan redirect 3XX ke url utama", ["url":url])): Send request successfully
+
+2022-05-07 07:50:44 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/2.har
+
+2022-05-07 07:50:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 302): Verify response status code successfully
+
+2022-05-07 07:50:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:44 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): <a href="/">Found</a>.
+
+
+
+2022-05-07 07:50:44 - [MESSAGE][INFO] - <a href="/">Found</a>.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/4. login menggunakan Username dan password valid" time="0.524" classname="Test Cases/Login/4. login menggunakan Username dan password valid" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:45 - [TEST_CASE][PASSED] - Test Cases/Login/4. login menggunakan Username dan password valid: Test Cases/Login/4. login menggunakan Username dan password valid
+
+2022-05-07 07:50:45 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Login/4. login menggunakan Username dan password valid", ["url":url])): Send request successfully
+
+2022-05-07 07:50:45 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/3.har
+
+2022-05-07 07:50:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 302): Verify response status code successfully
+
+2022-05-07 07:50:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:45 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): 
+
+2022-05-07 07:50:45 - [MESSAGE][INFO] -]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/5. login menggunakan Username dan password salah" time="0.51" classname="Test Cases/Login/5. login menggunakan Username dan password salah" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:45 - [TEST_CASE][PASSED] - Test Cases/Login/5. login menggunakan Username dan password salah: Test Cases/Login/5. login menggunakan Username dan password salah
+
+2022-05-07 07:50:45 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Login/5. login menggunakan Username dan password salah", ["url":url])): Send request successfully
+
+2022-05-07 07:50:46 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/4.har
+
+2022-05-07 07:50:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 401): Verify response status code successfully
+
+2022-05-07 07:50:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:46 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): The password or username is wrong
+
+
+2022-05-07 07:50:46 - [MESSAGE][INFO] - The password or username is wrong]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/6. logout" time="1.012" classname="Test Cases/Login/6. logout" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:46 - [TEST_CASE][PASSED] - Test Cases/Login/6. logout: Test Cases/Login/6. logout
+
+2022-05-07 07:50:46 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Logout/Logout", ["url":url])): Send request successfully
+
+2022-05-07 07:50:47 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/5.har
+
+2022-05-07 07:50:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2022-05-07 07:50:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): 
+
+2022-05-07 07:50:47 - [MESSAGE][INFO] -]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data/2. Filter Data start date lebih besar dari end date" time="0.486" classname="Test Cases/Data/2. Filter Data start date lebih besar dari end date" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:47 - [TEST_CASE][PASSED] - Test Cases/Data/2. Filter Data start date lebih besar dari end date: Test Cases/Data/2. Filter Data start date lebih besar dari end date
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Data/2. Filter Data start date lebih besar dari end date", ["url":url])): Send request successfully
+
+2022-05-07 07:50:47 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/6.har
+
+2022-05-07 07:50:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 405): Verify response status code successfully
+
+2022-05-07 07:50:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): Filter Parameter are wrong
+
+
+2022-05-07 07:50:47 - [MESSAGE][INFO] - Filter Parameter are wrong]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login" time="0.471" classname="Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:47 - [TEST_CASE][PASSED] - Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login: Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login
+
+2022-05-07 07:50:47 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Data/3. belum login - Mengembalikan redirect 3XX ke login", ["url":url])): Send request successfully
+
+2022-05-07 07:50:48 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/7.har
+
+2022-05-07 07:50:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 302): Verify response status code successfully
+
+2022-05-07 07:50:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): <a href="/login">Found</a>.
+
+
+
+2022-05-07 07:50:48 - [MESSAGE][INFO] - <a href="/login">Found</a>.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir" time="0.547" classname="Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:48 - [TEST_CASE][PASSED] - Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir: Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir", ["url":url])): Send request successfully
+
+2022-05-07 07:50:48 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/8.har
+
+2022-05-07 07:50:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 200): Verify response status code successfully
+
+2022-05-07 07:50:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    </body>
+</html>
+
+2022-05-07 07:50:48 - [MESSAGE][INFO] - <h1>Pemasukan</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pemasukan10</td><td>10</td></tr></table><h1>Pengeluaran</h1><table><tr><th>TimeStamp</th><th>Deskripsi</th><th>Jumlah</th></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr><tr><td>2018-07-10</td><td>pengeluaran10</td><td>10</td></tr></table><br><html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <form action="/filter" method="post">
+            Start:<input type="text" name="start">
+            End:<input type="text" name="end">
+            <input type="submit" value="Filter">
+        </form>
+        Date Format: yyyy-mm-dd
+    </body>
+</html>]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data/Endpoint Selalu salah" time="0.627" classname="Test Cases/Data/Endpoint Selalu salah" status="PASSED">
+         <system-out><![CDATA[2022-05-07 07:50:48 - [TEST_CASE][PASSED] - Test Cases/Data/Endpoint Selalu salah: Test Cases/Data/Endpoint Selalu salah
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - Time = SimpleDateFormat(mmss).format(getInstance().getTime()): null
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - no = "coba" + Time + "sirclo": null
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - randomword = no: null
+
+2022-05-07 07:50:48 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Data/Endpoint Selalu salah", ["url":url, "RandomWord":randomword])): Send request successfully
+
+2022-05-07 07:50:49 - [MESSAGE][INFO] - HAR: /Users/muktimalik/git/qa-test-sirclo/Reports/20220507_074955/SIRCLO - TECHNICAL TEST QA/20220507_074955/requests/main/9.har
+
+2022-05-07 07:50:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-07 07:50:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response1, 404): Verify response status code successfully
+
+2022-05-07 07:50:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-07 07:50:49 - [TEST_STEP][PASSED] - comment(response1.getResponseText()): Page not found
+
+
+2022-05-07 07:50:49 - [MESSAGE][INFO] - Page not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-07 07:50:41 - [TEST_SUITE][PASSED] - SIRCLO - TECHNICAL TEST QA: Test Cases/Data/Endpoint Selalu salah]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama","testCaseId":"Test Cases/Login/1. sudah login - Mengembalikan redirect 3XX ke url utama"}
+{"testCaseName":"Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password","testCaseId":"Test Cases/Login/2. belum login - Menampilkan form login dengan username dan password"}
+{"testCaseName":"Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama","testCaseId":"Test Cases/Login/3. sudah login - Mengembalikan redirect 3XX ke url utama"}
+{"testCaseName":"Test Cases/Login/4. login menggunakan Username dan password valid","testCaseId":"Test Cases/Login/4. login menggunakan Username dan password valid"}
+{"testCaseName":"Test Cases/Login/5. login menggunakan Username dan password salah","testCaseId":"Test Cases/Login/5. login menggunakan Username dan password salah"}
+{"testCaseName":"Test Cases/Login/6. logout","testCaseId":"Test Cases/Login/6. logout"}
+{"testCaseName":"Test Cases/Data/2. Filter Data start date lebih besar dari end date","testCaseId":"Test Cases/Data/2. Filter Data start date lebih besar dari end date"}
+{"testCaseName":"Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login","testCaseId":"Test Cases/Data/3. belum login - Mengembalikan redirect 3XX ke login"}
+{"testCaseName":"Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir","testCaseId":"Test Cases/Data/1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir"}
+{"testCaseName":"Test Cases/Data/Endpoint Selalu salah","testCaseId":"Test Cases/Data/Endpoint Selalu salah"}

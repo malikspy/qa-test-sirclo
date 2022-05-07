@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. sudah login - Menampilkan dengan 2 tabel yang berisi daftar 10 pemasukan dan pengeluaran terakhir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9436c3e8-cb33-4a81-9cbb-98b76fcd4511</testCaseGuid>
+</TestCaseEntity>
